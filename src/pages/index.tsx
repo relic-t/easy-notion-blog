@@ -7,13 +7,13 @@ const RenderPage = () => (
     <DocumentHead />
 
     <div>
-      <h2>Welcome!</h2>
-      <p>Your easy-notion-blog deployed successfully!</p>
-      <p>Have fun!</p>
+      <h2>備忘録</h2>
+      <p>思いついたことをメモします。</p>
+      <p>イラスト/勉強法/その他雑多に。</p>
       <p>
-        easy-notion-blog powered by{' '}
-        <ExtLink href="https://github.com/otoyo/easy-notion-blog">
-          otoyo/easy-notion-blog
+        Contact Information : {' '}
+        <ExtLink href="https://misskey.cloud/@luz">
+          @luz
         </ExtLink>
       </p>
     </div>
