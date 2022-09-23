@@ -24,7 +24,7 @@
   overflow: auto;
   margin: 5px;
   padding: 0.8rem;
-  background: rgb(247, 246, 243);
+  background: #433d3c;
   font-size: 0.9rem;
   line-height: 1.2rem;
   border-radius: var(--radius);
@@ -32,7 +32,7 @@
 .code pre code {
   color: var(--fg);
   padding: 0;
-  background: rgb(247, 246, 243) !important;
+  background: #433d3c !important;
 }
 .gray {
   color: rgba(120, 119, 116, 1);
@@ -62,22 +62,22 @@
   color: rgba(212, 76, 71, 1);
 }
 .grayBackground {
-  background: rgba(241, 241, 239, 1) !important;
+  background: rgba(241, 241, 239, 0.1) !important;
 }
 .brownBackground {
-  background: rgba(244, 238, 238, 1) !important;
+  background: rgba(244, 238, 238, 0.2) !important;
 }
 .orangeBackground {
-  background: rgba(251, 236, 221, 1) !important;
+  background: rgba(251, 236, 221, 0.5) !important;
 }
 .yellowBackground {
-  background: rgba(251, 243, 219, 1) !important;
+  background: rgba(251, 243, 219, 0.5) !important;
 }
 .greenBackground {
-  background: rgba(237, 243, 236, 1) !important;
+  background: rgba(237, 243, 236, 0.5) !important;
 }
 .blueBackground {
-  background: rgba(231, 243, 248, 1) !important;
+  background: rgba(231, 243, 248, 0.3) !important;
 }
 .purpleBackground {
   background: rgba(244, 240, 247, 0.8) !important;
@@ -86,7 +86,7 @@
   background: rgba(249, 238, 243, 0.8) !important;
 }
 .redBackground {
-  background: rgba(253, 235, 236, 1) !important;
+  background: rgba(253, 235, 236, 0.8) !important;
 }
 
 .callout {
@@ -100,7 +100,7 @@
   border-width: 1px;
   border-style: solid;
   border-color: transparent;
-  background: rgba(235, 236, 237, 0.6);
+  background: #433d3c;
   white-space: pre-wrap;
 }
 .callout div {
@@ -149,7 +149,7 @@
   width: 100%;
   box-sizing: border-box;
   text-decoration: none;
-  border: 1px solid rgba(55, 53, 47, 0.16);
+  border: 1px solid #524e4d;
   border-radius: 3px;
   display: flex;
   overflow: hidden;

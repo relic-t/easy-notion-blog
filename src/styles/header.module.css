@@ -6,7 +6,7 @@
 .header h1 {
   padding: 0.5rem 0;
   font-weight: 400;
-  color: #000;
+  color: #eae5e3;
 }
 .header h1 a {
   color: inherit;
@@ -25,7 +25,8 @@
 .header ul li {
   display: inline-block;
   padding: 0 15px;
+  font-weight: 700;
 }
 .header ul li :global(a.active) {
-  color: var(--accents-3);
+  color: var(--accents-2);
 }
