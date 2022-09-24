@@ -22,6 +22,10 @@
 .postTitle a {
   font-size: 1.2rem;
   color: inherit;
+  text-decoration: underline 2px var(--accents-3);
+}
+.postTitle a:hover {
+  text-decoration: none;
 }
 @media (max-width: 600px) {
   .postTitle a {
@@ -54,7 +58,8 @@
   line-height: 2.5rem;
 }
 .readMoreLink a:hover {
-  background-color: #a86965	;
+  background-color: #432f2f;
+  color: var(--accents-2);
 }
 @media (max-width: 600px) {
   .readMoreLink a {
@@ -70,11 +75,15 @@
   width: 30%;
   margin: 0 auto;
   border: 1px solid var(--bg);
+  border-radius: 6px;
   background-color: var(--accents-3);
   color: inherit;
   font-size: 0.85rem;
   text-align: center;
   line-height: 3rem;
+}
+.nextPageLink a:hover {
+  background-color: #432f2f;
 }
 @media (max-width: 600px) {
   .nextPageLink a {

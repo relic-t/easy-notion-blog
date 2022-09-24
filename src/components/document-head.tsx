@@ -5,7 +5,7 @@ import { NEXT_PUBLIC_URL } from '../lib/notion/server-constants'
 
 export const SITE_TITLE = 'blog.relict.one'
 export const SITE_DESCRIPTION =
-  'レリクトブログ'
+  'My journaling Routine.'
 
 const DocumentHead = ({ title = '', description = '', urlOgImage = '' }) => {
   const { asPath } = useRouter()

@@ -24,9 +24,18 @@
 }
 .header ul li {
   display: inline-block;
+  width: 20%;
   padding: 0 15px;
-  font-weight: 700;
+  font-weight: 500;
+  color: #524e4d;
+}
+.header ul a {
+  color: inherit;
+}
+.header ul a:hover {
+  color: var(--accents-2);
 }
 .header ul li :global(a.active) {
+  border-bottom: solid 4px var(--accents-3);
   color: var(--accents-2);
 }

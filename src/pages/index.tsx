@@ -1,4 +1,4 @@
-import DocumentHead from '../components/document-head'
+import DocumentHead, { SITE_DESCRIPTION } from '../components/document-head'
 import ExtLink from '../components/ext-link'
 import styles from '../styles/page.module.css'
 
@@ -7,15 +7,14 @@ const RenderPage = () => (
     <DocumentHead />
 
     <div>
-      <h2>備忘録</h2>
-      <p>思いついたことをメモします。</p>
-      <p>イラスト/勉強法/その他雑多に。</p>
-      <p>
-        Contact Information : {' '}
+      <h2>{SITE_DESCRIPTION}</h2>
+      <p>イラスト/勉強法/その他雑多に考えたことをメモします。</p>
+      <h2>Contact</h2>
+        <p>SNS Account : {' '}
         <ExtLink href="https://misskey.cloud/@luz">
           @luz
         </ExtLink>
-      </p>
+        </p>
     </div>
   </div>
 )
